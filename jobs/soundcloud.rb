@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require 'soundcloud'
 
 # create client object with app and user credentials
