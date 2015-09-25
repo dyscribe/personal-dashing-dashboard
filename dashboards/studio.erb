@@ -1,0 +1,43 @@
+
+<% content_for :title do %>dyscribe.com Dashboard<% end %>
+<script type='text/javascript'>
+$(function() {
+    Dashing.numColumns = 5;
+    Dashing.numRows = 3;
+    Dashing.widget_base_dimensions = [300, 350];
+});
+</script>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Image" data-image="/logo_green_transparent.png"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="soundcloud-plays" data-view="Number" data-unordered="true" data-title="@klartexter Plays on Soundcloud" style="background-color:#FF6600"></div>
+      <i class="icon-play icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="my-trello-board" data-view="List" data-title="Musik & Studio Board"></div>
+      <i class="icon-trello icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-view="Clock" style="background-color:#9cc7a1"></div>
+      <i class="icon-time icon-background"></i>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+      <div data-id="git_issues_labeled_defects" data-view="Graph" data-title="Open Issues & Pullrequests" ></div>
+      <i class="icon-github icon-background"></i>
+    </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#4099FF;" data-moreinfo="Recent Tweets"></div>
+      <i class="icon-twitter icon-background"></i>
+    </li>
+
+  </ul>
+  <center><div style="font-size: 12px">Die angezeigten Daten werden min. ein mal täglich, max. alle 5 Minuten aktualisiert.</div></center>
+</div>
