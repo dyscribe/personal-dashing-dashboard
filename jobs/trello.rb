@@ -8,8 +8,10 @@ Trello.configure do |config|
   config.member_token = ENV['TRELLO_MEMBER_TOKEN']
 end
 
+
+
 boards = {
-  "my-trello-board" => "d70wDm4r",
+  "My Trello Board" => ENV['TRELLO_BOARD_ID1'],
 }
 
 class MyTrello

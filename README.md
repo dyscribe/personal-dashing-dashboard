@@ -1,5 +1,6 @@
 # Yet another Dashing dashboard
-##
+
+[![Build Status](https://travis-ci.org/dyscribe/dyscribe-dashboard.svg?branch=master)](https://travis-ci.org/dyscribe/dyscribe-dashboard)
 
 This is the source for a [Dashing.io dashboard](http://dashing.io/) _(ready to use be used on [Heroku](//heroku.com))_.
 You may [check the live preview of the dashboard in action](https://dyscribe.herokuapp.com).
