@@ -22,7 +22,5 @@ begin
      send_event('twitter_mentions', {comments: mentions})
    end
  rescue Twitter::Error
-   puts "\e[33mThere was an error with Twitter\e[0m"
+   puts "\e[33mThere was an error with the Twitter widget \e[0m"
  end
-
-# puts "Latest Tweet: #{mentions.inspect}"
