@@ -16,7 +16,7 @@ begin
    timeline = twitter.user_timeline
    if timeline
      mentions = timeline.take(5).collect do |tweet|
-       { name: tweet.user.screen_name, body: tweet.text, avatar: tweet.user.profile_image_url }
+       { name: tweet.user.screen_name, body: tweet.text, avatar: tweet.user.profile_image_url_https }
      end
 
      send_event('twitter_mentions', {comments: mentions})
