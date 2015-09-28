@@ -27,7 +27,6 @@ last_x = points.last[:x]
 
 
 SCHEDULER.every '1m', :first_in => 0 do |job|
-    puts "Getting #{uri}"
     response = RestClient.get uri
     issues = JSON.parse(response.body, symbolize_names: true)
 
