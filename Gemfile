@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 gem 'dashing'
+gem 'rspec'
+gem 'rake'
 
 ## Remove this if you don't need a twitter widget.
 gem 'twitter', '>= 5.9.0'
@@ -22,4 +24,3 @@ gem 'ruby-trello'
 gem 'rest-client'
 gem 'octokit'
 gem 'actionview'
-gem 'rake'
