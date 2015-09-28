@@ -50,6 +50,3 @@ SCHEDULER.every '5m', :first_in => 0 do |job|
     send_event(board.widget_id, { :items => status })
   end
 end
-rescue
-  puts "\e[33mThere was an error with the Trello widget \e[0m"
-end
