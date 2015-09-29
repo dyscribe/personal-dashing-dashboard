@@ -2,9 +2,9 @@
 <% content_for :title do %>dyscribe.com Dashboard<% end %>
 <script type='text/javascript'>
 $(function() {
-    Dashing.numColumns = 5;
-    Dashing.numRows = 3;
-    Dashing.widget_base_dimensions = [300, 350];
+    Dashing.numColumns = 4;
+    Dashing.numRows = 2;
+    Dashing.widget_base_dimensions = [320, 320];
 });
 </script>
 <div class="gridster">
@@ -36,6 +36,10 @@ $(function() {
     <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="twitter_mentions" data-view="Comments" style="background-color:#4099FF;" data-moreinfo="Recent Tweets"></div>
       <i class="icon-twitter icon-background"></i>
+    </li>
+
+    <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="instadash" data-view="Instadash"></div>
     </li>
 
   </ul>

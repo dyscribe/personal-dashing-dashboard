@@ -22,3 +22,6 @@ gem 'ruby-trello'
 gem 'rest-client'
 gem 'octokit'
 gem 'actionview'
+
+# Instagram
+gem 'instagram'
