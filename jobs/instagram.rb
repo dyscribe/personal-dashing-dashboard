@@ -10,7 +10,7 @@ end
 
 user_id = ENV['INSTAGRAM_USER_ID']
 
-puts Instagram.user_recent_media("#{user_id}")
+# puts Instagram.user_recent_media("#{user_id}")
 
 SCHEDULER.every '2m', :first_in => 0 do |job|
   photos = Instagram.user_recent_media("#{user_id}")
