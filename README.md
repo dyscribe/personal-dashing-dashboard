@@ -17,6 +17,7 @@ It contains the follwing widgets:
  * **Trello:** Number of cards per list
  * **Twitter:** Recent Tweets by `@username`
  * **Github:** Number of open Pullrequests and Issues on a repo of your choice
+ * **Instagram:** Display images by a user of your choice
 
 Furthermore some standards like:
 
