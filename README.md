@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/dyscribe/personal-dashing-dashboard.png?label=ready&title=Ready)](https://waffle.io/dyscribe/personal-dashing-dashboard)
 [![Build Status](https://travis-ci.org/dyscribe/dyscribe-dashboard.svg?branch=master)](https://travis-ci.org/dyscribe/dyscribe-dashboard)
 
 # Personal Dashing Dashboard
